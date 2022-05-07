@@ -1,3 +1,5 @@
+package Datos;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -6,7 +8,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Conexion {
-    private final String base = "DAW_Parc";
+    private final String base = "Risus_Dent";
     //private final String timezone = "serverTimezone=UTC";
     private final String user = "postgres";
     private final String password = "TheonePostgre"; /* Verificar contraseña */
